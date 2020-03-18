@@ -1,3 +1,6 @@
+html{
+  overflow-y: hidden;
+}
 .App {
   text-align: center;
 }
@@ -27,7 +30,33 @@
 .App-link {
   color: #61dafb;
 }
-
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 530px;
+}
+.demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+.custom-header {
+  height: 40px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 34px;
+  background: #F9E76A;
+}
+.hover-onBjects{
+  background-color: white;
+}
+.hover-onBjects:hover{
+  background-color: transparent;
+  opacity: 0.6
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
